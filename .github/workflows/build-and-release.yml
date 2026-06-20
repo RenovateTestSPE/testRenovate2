@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22.13"
+          node-version: "22.23"
       - name: Install dependencies
         run:  HUSKY=0 npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
